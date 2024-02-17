@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Dashboard from "./pages/Dashboard";
 import Header from "./assets/components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import FooterComp from "./assets/components/FooterComp";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+      <FooterComp />
     </BrowserRouter>
   );
 }
