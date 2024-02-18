@@ -76,7 +76,7 @@ export default function FooterComp() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
             href="#"
-            by="Sahand's blog"
+            by="Nevermore Notes"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
