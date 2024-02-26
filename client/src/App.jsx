@@ -7,8 +7,6 @@ import Dashboard from "./pages/Dashboard";
 import Header from "./assets/components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FooterComp from "./assets/components/FooterComp";
-import PrivateRoute from "./assets/components/PrivateRoute";
-
 import OnlyAdminPrivateRoute from "./components/OnlyAdminPrivateRoute";
 import CreatePost from "./pages/CreatePost";
 
