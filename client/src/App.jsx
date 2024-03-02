@@ -11,6 +11,7 @@ import OnlyAdminPrivateRoute from "./assets/components/OnlyAdminPrivateRoute";
 import CreatePost from "./pages/CreatePost";
 import PrivateRoute from "./assets/components/PrivateRoute";
 import UpdatePost from "./pages/UpdatePost";
+import PostPage from "./pages/PostPage";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
         </Route>
 
         <Route path="/projects" element={<Projects />} />
+        <Route path="/post/:postSlug" element={<PostPage />} />
       </Routes>
       <FooterComp />
     </BrowserRouter>
